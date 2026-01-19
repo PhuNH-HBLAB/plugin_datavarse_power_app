@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|c:\\users\\phunh\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_contractmeetingcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_contractmeetingcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|c:\\users\\phunh\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_countchildrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_countchildrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_advanced_month_allocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_advanced_month_allocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_mapemailtolookup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_mapemailtolookup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_setorigininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_setorigininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Plugin_ContractMeetingCategory.cs",
+              "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_ContractMeetingCategory.cs",
+              "RelativeDocumentMoniker": "plugindatavarse\\Plugin_ContractMeetingCategory.cs",
+              "ToolTip": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_ContractMeetingCategory.cs",
+              "RelativeToolTip": "plugindatavarse\\Plugin_ContractMeetingCategory.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T01:24:02.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Plugin_Advanced_Month_Allocation.cs",
+              "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_Advanced_Month_Allocation.cs",
+              "RelativeDocumentMoniker": "plugindatavarse\\Plugin_Advanced_Month_Allocation.cs",
+              "ToolTip": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_Advanced_Month_Allocation.cs",
+              "RelativeToolTip": "plugindatavarse\\Plugin_Advanced_Month_Allocation.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T01:39:44.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Plugin_Validator.cs",
+              "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_Validator.cs",
+              "RelativeDocumentMoniker": "plugindatavarse\\Plugin_Validator.cs",
+              "ToolTip": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_Validator.cs",
+              "RelativeToolTip": "plugindatavarse\\Plugin_Validator.cs",
+              "ViewState": "AgIAACABAAAAAAAAAAAkwDUBAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T02:38:38.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Plugin_SetOriginInfo.cs",
+              "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_SetOriginInfo.cs",
+              "RelativeDocumentMoniker": "plugindatavarse\\Plugin_SetOriginInfo.cs",
+              "ToolTip": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_SetOriginInfo.cs",
+              "RelativeToolTip": "plugindatavarse\\Plugin_SetOriginInfo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T01:31:07.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Plugin_CountChildRecords.cs",
+              "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_CountChildRecords.cs",
+              "RelativeDocumentMoniker": "plugindatavarse\\Plugin_CountChildRecords.cs",
+              "ToolTip": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_CountChildRecords.cs",
+              "RelativeToolTip": "plugindatavarse\\Plugin_CountChildRecords.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBYAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T09:28:23.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Plugin_MapEmailToLookup.cs",
+              "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_MapEmailToLookup.cs",
+              "RelativeDocumentMoniker": "plugindatavarse\\Plugin_MapEmailToLookup.cs",
+              "ToolTip": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_MapEmailToLookup.cs",
+              "RelativeToolTip": "plugindatavarse\\Plugin_MapEmailToLookup.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T09:25:09.024Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
