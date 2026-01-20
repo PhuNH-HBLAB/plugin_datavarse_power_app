@@ -104,6 +104,7 @@
     <Compile Include="Plugin_ContractMeetingCategory.cs" />
     <Compile Include="Plugin_CountChildRecords.cs" />
     <Compile Include="Plugin_MapEmailToLookup.cs" />
+    <Compile Include="Plugin_SetMarket.cs" />
     <Compile Include="Plugin_SetOriginInfo.cs" />
     <Compile Include="Plugin_Validator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

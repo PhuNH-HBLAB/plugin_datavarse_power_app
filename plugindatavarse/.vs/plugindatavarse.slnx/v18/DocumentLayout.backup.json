@@ -3,10 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|plugindatavarse||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|c:\\users\\phunh\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_setmarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_setmarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|c:\\users\\phunh\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_contractmeetingcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|c:\\users\\phunh\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_autoclonerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_autoclonerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_contractmeetingcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_contractmeetingcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,9 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\plugin_setorigininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|solutionrelative:plugindatavarse\\plugin_setorigininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D206BFE8-9964-4AD2-AE6D-994C8C897010}|plugindatavarse\\plugindatavarse.csproj|c:\\users\\phunh\\source\\repos\\plugindatavarse\\plugindatavarse\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -105,18 +107,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "plugindatavarse",
-              "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\plugindatavarse.csproj",
-              "RelativeDocumentMoniker": "plugindatavarse\\plugindatavarse.csproj",
-              "ToolTip": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\plugindatavarse.csproj",
-              "RelativeToolTip": "plugindatavarse\\plugindatavarse.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-01-19T08:06:12.641Z",
+              "Title": "Plugin_SetMarket.cs",
+              "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_SetMarket.cs",
+              "RelativeDocumentMoniker": "plugindatavarse\\Plugin_SetMarket.cs",
+              "ToolTip": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_SetMarket.cs",
+              "RelativeToolTip": "plugindatavarse\\Plugin_SetMarket.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAwFEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:50:48.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Plugin_AutoCloneRecord.cs",
+              "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_AutoCloneRecord.cs",
+              "RelativeDocumentMoniker": "plugindatavarse\\Plugin_AutoCloneRecord.cs",
+              "ToolTip": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_AutoCloneRecord.cs",
+              "RelativeToolTip": "plugindatavarse\\Plugin_AutoCloneRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T01:48:29.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Plugin_ContractMeetingCategory.cs",
               "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_ContractMeetingCategory.cs",
               "RelativeDocumentMoniker": "plugindatavarse\\Plugin_ContractMeetingCategory.cs",
@@ -129,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Plugin_Advanced_Month_Allocation.cs",
               "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_Advanced_Month_Allocation.cs",
               "RelativeDocumentMoniker": "plugindatavarse\\Plugin_Advanced_Month_Allocation.cs",
@@ -137,12 +153,11 @@
               "RelativeToolTip": "plugindatavarse\\Plugin_Advanced_Month_Allocation.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwBMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T01:39:44.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T01:39:44.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Plugin_Validator.cs",
               "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_Validator.cs",
               "RelativeDocumentMoniker": "plugindatavarse\\Plugin_Validator.cs",
@@ -150,12 +165,11 @@
               "RelativeToolTip": "plugindatavarse\\Plugin_Validator.cs",
               "ViewState": "AgIAACABAAAAAAAAAAAkwDUBAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T02:38:38.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T02:38:38.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Plugin_SetOriginInfo.cs",
               "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_SetOriginInfo.cs",
               "RelativeDocumentMoniker": "plugindatavarse\\Plugin_SetOriginInfo.cs",
@@ -163,12 +177,11 @@
               "RelativeToolTip": "plugindatavarse\\Plugin_SetOriginInfo.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAcwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T01:31:07.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T01:31:07.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Plugin_CountChildRecords.cs",
               "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_CountChildRecords.cs",
               "RelativeDocumentMoniker": "plugindatavarse\\Plugin_CountChildRecords.cs",
@@ -176,12 +189,11 @@
               "RelativeToolTip": "plugindatavarse\\Plugin_CountChildRecords.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAmwBYAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T09:28:23.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T09:28:23.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Plugin_MapEmailToLookup.cs",
               "DocumentMoniker": "C:\\Users\\PhuNH\\source\\repos\\plugindatavarse\\plugindatavarse\\Plugin_MapEmailToLookup.cs",
               "RelativeDocumentMoniker": "plugindatavarse\\Plugin_MapEmailToLookup.cs",
@@ -189,8 +201,7 @@
               "RelativeToolTip": "plugindatavarse\\Plugin_MapEmailToLookup.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T09:25:09.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T09:25:09.024Z"
             }
           ]
         }
