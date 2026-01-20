@@ -220,6 +220,158 @@ namespace FixDataCountTool
             //}
             //Console.ReadLine();
 
+            //try
+            //{
+            //    CrmServiceClient service = new CrmServiceClient(connectionString);
+            //    if (!service.IsReady)
+            //    {
+            //        Console.WriteLine("Lỗi kết nối: " + service.LastCrmError);
+            //        return;
+            //    }
+            //    Console.WriteLine("Kết nối thành công! Đang quét dữ liệu hợp đồng...");
+
+            //    string tableName = "hbl_contract"; // Tên bảng hợp đồng của bạn
+            //    string targetField = "mc_contract_meeting_category";
+
+            //    // Khai báo tên Logical Name của các cột điều kiện
+            //    string colEndDate = "hbl_contract_end_date";
+            //    string colStatus = "hbl_contract_status";
+
+            //    // Khai báo Value của Choice (Cần khớp với hệ thống của bạn)
+            //    int statusNormal = 135150001;
+            //    int statusFinished = 135150006;
+
+            //    // 1. LẤY DỮ LIỆU CẦN THIẾT
+            //    QueryExpression query = new QueryExpression(tableName);
+            //    query.ColumnSet = new ColumnSet(colEndDate, colStatus); 
+
+            //    EntityCollection contracts = service.RetrieveMultiple(query);
+            //    Console.WriteLine($"=> Tìm thấy {contracts.Entities.Count} bản ghi cần kiểm tra.");
+
+            //    int processed = 0;
+            //    DateTime today = DateTime.Today;
+
+            //    foreach (var con in contracts.Entities)
+            //    {
+            //        string resultText = string.Empty;
+
+            //        DateTime? endDate = con.Contains(colEndDate) ? con.GetAttributeValue<DateTime?>(colEndDate) : null;
+            //        OptionSetValue status = con.Contains(colStatus) ? con.GetAttributeValue<OptionSetValue>(colStatus) : null;
+
+            //        if (endDate.HasValue)
+            //        {
+            //            int daysDiff = (endDate.Value.Date - today).Days;
+
+
+            //            if (daysDiff >= 0 && daysDiff <= 30)
+            //            {
+            //                resultText = "Ending soon";
+            //            }
+            //            else if (status != null && status.Value != statusNormal && status.Value != statusFinished)
+            //            {
+            //                resultText = "Status check";
+            //            }
+            //            else if (status != null && status.Value == statusNormal && daysDiff < 0)
+            //            {
+            //                resultText = "Need Update Contract";
+            //            }
+            //        }
+
+
+            //        Entity updateEntity = new Entity(tableName, con.Id);
+            //        updateEntity[targetField] = resultText;
+
+            //        service.Update(updateEntity);
+            //        processed++;
+
+            //        if (processed % 10 == 0) // Hiển thị tiến độ mỗi 10 bản ghi
+            //            Console.WriteLine($"--- Đã xử lý {processed}/{contracts.Entities.Count} ---");
+            //    }
+
+            //    Console.WriteLine($"\n=== HOÀN TẤT: Đã cập nhật xong {processed} hợp đồng ===");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Lỗi thực thi: " + ex.Message);
+            //}
+            //Console.ReadLine();
+
+            //try
+            //{
+            //    CrmServiceClient service = new CrmServiceClient(connectionString);
+            //    if (!service.IsReady)
+            //    {
+            //        Console.WriteLine("Lỗi kết nối: " + service.LastCrmError);
+            //        return;
+            //    }
+            //    Console.WriteLine("Kết nối thành công! Bắt đầu sao chép dữ liệu...");
+
+            //    // Tên bảng
+            //    string sourceTable = "hbl_account_planning";
+            //    string targetTable = "mc_account_actual";
+
+            //    // 1. LẤY TOÀN BỘ DỮ LIỆU TỪ BẢNG A
+            //    QueryExpression query = new QueryExpression(sourceTable);
+            //    query.ColumnSet = new ColumnSet(true); // Lấy tất cả các cột để đảm bảo không sót trường nào trong ảnh
+
+            //    EntityCollection sourceRecords = service.RetrieveMultiple(query);
+            //    Console.WriteLine($"=> Tìm thấy {sourceRecords.Entities.Count} bản ghi từ {sourceTable}.");
+
+            //    int processed = 0;
+
+            //    foreach (var sourceEnt in sourceRecords.Entities)
+            //    {
+            //        Entity targetEnt = new Entity(targetTable);
+
+            //        // --- MAPPING CÁC TRƯỜNG THEO ẢNH ---
+
+            //        // Các trường text/số thông thường
+            //        CopyAttribute(sourceEnt, targetEnt, "mc_account_planning_market", "mc_account_actual_market");
+            //        CopyAttribute(sourceEnt, targetEnt, "hblab_account_planning_account", "mc_actual_account");
+            //        CopyAttribute(sourceEnt, targetEnt, "mc_account_planning_resouce_type", "mc_account_actual_resouce_type");
+            //        CopyAttribute(sourceEnt, targetEnt, "hbl_account_plan_unit_price", "mc_account_actual_unit_price");
+
+            //        // Mapping vòng lặp cho mm1 -> mm12
+            //        for (int i = 1; i <= 12; i++)
+            //        {
+            //            CopyAttribute(sourceEnt, targetEnt, $"hbl_mm{i}", $"mc_mm{i}");
+            //        }
+
+            //        CopyAttribute(sourceEnt, targetEnt, "mc_account_planning_opportunity", "mc_account_actual_opportunity");
+            //        CopyAttribute(sourceEnt, targetEnt, "hbl_account_planning_certainty", "mc_account_actual_certainty");
+            //        CopyAttribute(sourceEnt, targetEnt, "mc_account_planning_service_offering", "mc_account_actual_service_offering");
+            //        CopyAttribute(sourceEnt, targetEnt, "hbl_account_planning_currency", "mc_account_actual_currency");
+            //        CopyAttribute(sourceEnt, targetEnt, "hbl_link_acc_plan", "mc_account_actual_link_accplan"); 
+            //        CopyAttribute(sourceEnt, targetEnt, "hbl_account_planning_year", "mc_year"); 
+            //        CopyAttribute(sourceEnt, targetEnt, "hbl_newcolumn", "mc_account_actual_name");
+            //        CopyAttribute(sourceEnt, targetEnt, "mc_account_planning_ap_type", "mc_account_actual_ap_type");
+
+            //        // 2. TẠO MỚI BẢN GHI Ở BẢNG B
+            //        service.Create(targetEnt);
+
+            //        processed++;
+            //        if (processed % 10 == 0)
+            //            Console.WriteLine($"--- Đã sao chép {processed}/{sourceRecords.Entities.Count} bản ghi ---");
+            //    }
+
+            //    Console.WriteLine($"\n=== HOÀN TẤT: Đã tạo {processed} bản ghi mới ở bảng {targetTable} ===");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Lỗi thực thi: " + ex.Message);
+            //}
+            //Console.ReadLine();
+
+            //// Hàm phụ trợ để kiểm tra dữ liệu trước khi copy (tránh lỗi null)
+            //void CopyAttribute(Entity source, Entity target, string sourceAttr, string targetAttr)
+            //{
+            //    if (source.Contains(sourceAttr))
+            //    {
+            //        target[targetAttr] = source[sourceAttr];
+            //    }
+            //}
+
+
             try
             {
                 CrmServiceClient service = new CrmServiceClient(connectionString);
@@ -228,67 +380,60 @@ namespace FixDataCountTool
                     Console.WriteLine("Lỗi kết nối: " + service.LastCrmError);
                     return;
                 }
-                Console.WriteLine("Kết nối thành công! Đang quét dữ liệu hợp đồng...");
 
-                string tableName = "hbl_contract"; // Tên bảng hợp đồng của bạn
-                string targetField = "mc_contract_meeting_category";
+                string tableName = "hbl_opportunities";
+                string sourceField = "hbl_opportunities_win_rate"; // Trường chứa số (x)
+                string targetField = "mc_opportunities_certainty"; // Trường Choice (b)
 
-                // Khai báo tên Logical Name của các cột điều kiện
-                string colEndDate = "hbl_contract_end_date";
-                string colStatus = "hbl_contract_status";
-
-                // Khai báo Value của Choice (Cần khớp với hệ thống của bạn)
-                int statusNormal = 135150001;
-                int statusFinished = 135150006;
-
-                // 1. LẤY DỮ LIỆU CẦN THIẾT
+                // 1. Lấy tất cả bản ghi có giá trị Win Rate
                 QueryExpression query = new QueryExpression(tableName);
-                query.ColumnSet = new ColumnSet(colEndDate, colStatus); 
+                query.ColumnSet = new ColumnSet(sourceField);
+                query.Criteria.AddCondition(sourceField, ConditionOperator.NotNull);
 
-                EntityCollection contracts = service.RetrieveMultiple(query);
-                Console.WriteLine($"=> Tìm thấy {contracts.Entities.Count} bản ghi cần kiểm tra.");
+                EntityCollection records = service.RetrieveMultiple(query);
+                Console.WriteLine($"=> Tìm thấy {records.Entities.Count} bản ghi cần xử lý.");
 
-                int processed = 0;
-                DateTime today = DateTime.Today;
-
-                foreach (var con in contracts.Entities)
+                int count = 0;
+                foreach (var entity in records.Entities)
                 {
-                    string resultText = string.Empty;
+                    // Lấy giá trị x
+                    double x = 0;
+                    var rawValue = entity[sourceField];
 
-                    DateTime? endDate = con.Contains(colEndDate) ? con.GetAttributeValue<DateTime?>(colEndDate) : null;
-                    OptionSetValue status = con.Contains(colStatus) ? con.GetAttributeValue<OptionSetValue>(colStatus) : null;
+                    // Ép kiểu an toàn tùy theo định dạng Decimal hay Double
+                    x = Convert.ToDouble(rawValue);
 
-                    if (endDate.HasValue)
+                    int? b = null;
+
+                    // 2. Logic phân loại (Sửa lại toán tử && để đúng khoảng giá trị)
+                    if (x >= 0 && x < 0.3)
+                        b = 758130005; // IDX 0.1
+                    else if (x >= 0.3 && x < 0.5)
+                        b = 758130004; // Bestcase 0.3
+                    else if (x >= 0.5 && x < 0.8)
+                        b = 758130003; // Forecast 0.5
+                    else if (x >= 0.8 && x < 0.9)
+                        b = 758130002; // Extend 0.8
+                    else if (x >= 0.9 && x < 1.0)
+                        b = 758130001; // Worstcase 0.9
+                    else if (x >= 1.0)
+                        b = 758130000; // Contracted 1
+
+                    if (b.HasValue)
                     {
-                        int daysDiff = (endDate.Value.Date - today).Days;
+                        // 3. Cập nhật lại chính bản ghi đó
+                        Entity updateRequest = new Entity(tableName, entity.Id);
+                        updateRequest[targetField] = new OptionSetValue(b.Value);
 
-                        
-                        if (daysDiff >= 0 && daysDiff <= 30)
-                        {
-                            resultText = "Ending soon";
-                        }
-                        else if (status != null && status.Value != statusNormal && status.Value != statusFinished)
-                        {
-                            resultText = "Status check";
-                        }
-                        else if (status != null && status.Value == statusNormal && daysDiff < 0)
-                        {
-                            resultText = "Need Update Contract";
-                        }
+                        service.Update(updateRequest);
+                        count++;
+
+                        if (count % 10 == 0)
+                            Console.WriteLine($"Đã xử lý: {count}/{records.Entities.Count}");
                     }
-
-                    
-                    Entity updateEntity = new Entity(tableName, con.Id);
-                    updateEntity[targetField] = resultText;
-
-                    service.Update(updateEntity);
-                    processed++;
-
-                    if (processed % 10 == 0) // Hiển thị tiến độ mỗi 10 bản ghi
-                        Console.WriteLine($"--- Đã xử lý {processed}/{contracts.Entities.Count} ---");
                 }
 
-                Console.WriteLine($"\n=== HOÀN TẤT: Đã cập nhật xong {processed} hợp đồng ===");
+                Console.WriteLine($"\n=== THÀNH CÔNG: Đã cập nhật {count} bản ghi ===");
             }
             catch (Exception ex)
             {
